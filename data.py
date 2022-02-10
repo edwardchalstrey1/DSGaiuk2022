@@ -1,5 +1,20 @@
-import rfc6266
 import requests
+import re
+from urllib.parse import unquote
+
+
+def getFilename(s):
+	fname = re.findall("filename\*=([^;]+)", s, flags=re.IGNORECASE)
+	if not fname:
+		fname = re.findall("filename=([^;]+)", s, flags=re.IGNORECASE)
+	if "utf-8''" in fname[0].lower():
+		fname = re.sub("utf-8''", '', fname[0], flags=re.IGNORECASE)
+		fname = unquote(fname)
+	else:
+		fname = fname[0]
+	# clean space and double quotes
+	return fname.strip().strip('"')
+
 
 def download_data():
 	file_ids = [
@@ -14,10 +29,10 @@ def download_data():
 	
 	for id in file_ids:
 		url = f'https://drive.google.com/uc?id={id}&authuser=0&export=download'
-		resp = requests.get(url, stream=True)
-		resp.raise_for_status()
-		name = rfc6266.parse_requests_response(resp).filename_unsafe
+		r = requests.get(url, stream=True)
+		r.raise_for_status()
+		name = getFilename(r.headers['content-disposition'])
 		with open(name, 'wb') as f:
-			for chunk in resp.iter_content(chunk_size=1024): 
+			for chunk in r.iter_content(chunk_size=1024): 
 				if chunk:
-	            	f.write(chunk)
+					f.write(chunk)
