@@ -7,7 +7,8 @@ The main document is the Jupyter Notebook [aiuk.ipynb](https://github.com/richpl
 ## Running on Google Colab
 
 1. Go to https://colab.research.google.com
-2. Under the "GitHub" tab, type the URL of this repo (https://github.com/richplant/aiuk), then click on "aiuk.ipynb"
+2. Click "include private repos".
+3. Under the "GitHub" tab, type the URL of this repo (https://github.com/richplant/aiuk), then click on "aiuk.ipynb"
 4. Open [this link](https://drive.google.com/drive/folders/1adprVKMxSlXTn-S3ZAbOx545cxv5CzHl?usp=sharing) and connect to your Google Drive account
 5. Then go to "Shared with me" in your Google Drive, right-click the "AIUK" folder and select "Add shortcut to Drive"
 
