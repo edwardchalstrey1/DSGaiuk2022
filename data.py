@@ -18,13 +18,11 @@ def getFilename(s):
 
 def download_data():
 	file_ids = [
-		'16jnmnbKS1qStGmEashuUJOyg8GlLA1YV',
-		'15wd2Tly-4Otxgp0idQ_UPpCkIwx5pw4Z',
-		'1q2j3Xvm11MezBSHEEJHbK0fscuGamK3L',
-		'1DUebY1kB1k0yq3kNTNd4Lx39z07YPtXc',
-		'1APE37mx9V6Iyl454qKrIJ0DIALwvMJd7',
-		'1IexMWC5wgqRbVKJ2Io2Xe08UUalahiBk',
-		'1Qfe7uQ3zut8bjiCEW3I_QGft-SI5jCHk'
+		'13wUorzpQZ984UACpprU8o21BO6rizaFB',
+		'1yFJ3FEKXlJWyUaSL8Z0PkfINw2lYMchE',
+		'1fTo5KmOLGbxI3uNHhVOTZbQyTWnOgYD6',
+		'11I2vakOkyFTO_EyP19CZz9uMy71JzdIk',
+		'1cpcxUg-7_CmAM-5Vpwa72VxUqwuhY8KX',
 	]
 	
 	for id in file_ids:
