@@ -2,7 +2,7 @@
 
 Welcome to the demonstration documentation for the AIUK Data Study Group challenge. This set of documents will allow you to get started with the datasets we plan to use during the challenge, see some examples of how we have explored the data, and read about some open questions you might like to explore.
 
-The main document is the Jupyter Notebook [aiuk.ipynb](https://github.com/alan-turing-institute/DSGaiuk2022/blob/main/aiuk.ipynb). Follow the instructions below to run the examples on either Google Colab or your own system. Don't worry if you haven't used Jupyter before, clicking through will show you a completed version so you can read through the information at your own pace.
+Full instructions and worked examples can be found in the following Jupyter notebook: [aiuk.ipynb](https://github.com/alan-turing-institute/DSGaiuk2022/blob/main/aiuk.ipynb). **PLEASE READ THROUGH THE NOTEBOOK IN FULL**, following the instructions below to run the examples if you want. Don't worry if you haven't used Jupyter before, clicking through will show you a completed version so you can read through the information at your own pace. We strongly suggest you read the sections at the end of the notebook on possible questions and what your facilitator will be feeding back at close of the event.
 
 We suggest that during the challenge, you delegate someone who is familiar with data science tools and the Jupyter environment to share their screen with other members of their group. However, we do encourage everyone to at least read through and try to follow the examples before the event.
 
