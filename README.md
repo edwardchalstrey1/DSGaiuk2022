@@ -8,7 +8,7 @@ We suggest that during the challenge, you delegate someone who is familiar with 
 
 **IMPORTANT NOTE**: The questions we've explored while developing the notebook are simple examples of how we could use the data, but you should think about what questions you might like to answer during the challenge. We've added some examples of potential questions at the end of the notebook, but feel free to develop your own analysis.
 
-What we'd like you to end up with after the challenge, along with the experience of collaborating with other data scientists in self-guided study, is a short set of ideas for discussion; something you can present in around 5-6 minutes, with 1-2 slides illustrating your most interesting finding. We've added some sample PowerPoint templates to this repository, but please use what you're most comfortable with.
+What we'd like you to end up with after the challenge, along with the experience of collaborating with other data scientists in self-guided study, is a short set of ideas for discussion; something you can present in around 5-6 minutes, with 1-2 slides illustrating your most interesting finding. We added a PowerPoint template with the AI UK style for you to use.
 
 ## Running on Google Colab
 
